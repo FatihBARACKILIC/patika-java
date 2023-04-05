@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int maxNumber;
+        int maxNumber, sum = 0, count = 0;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -15,8 +15,12 @@ public class Main {
         System.out.println();
 
         for (int i = 0; i < maxNumber; i++) {
-            if(i % 3 == 0 && i % 4 == 0)
-                System.out.print(i +" ");
+            if (i % 3 == 0 && i % 4 == 0) {
+                System.out.print(i + " ");
+                sum += i;
+                count++;
+            }
         }
+        System.out.println("\nAverage: " + sum/count);
     }
 }
