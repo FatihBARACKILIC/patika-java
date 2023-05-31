@@ -8,14 +8,29 @@
             "name": "DVDRental",
             "database": "dvdrental",
             "username": "fatihbarackilic"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "BookStore",
+            "database": "bookstore",
+            "username": "fatihbarackilic"
         }
     ],
     "cSpell.words": [
+        "Adıvar",
+        "Bauman",
         "dvdrental",
         "grupladığımızda",
         "gruplandırdıktan",
         "gruplayınız",
+        "Haruki",
+        "Murakami",
         "OLMAYIP",
-        "soyisim"
+        "Sabahattin",
+        "soyisim",
+        "Zygmunt"
     ]
 }
